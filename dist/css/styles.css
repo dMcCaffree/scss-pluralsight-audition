@@ -1,0 +1,37 @@
+html {
+	font-size: 10px; //Sets rem size
+	margin: 0;
+}
+
+body {
+	font-size: 1.6rem;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+nav {
+	background-color: #ccc;
+	color: #232323;
+	text-align: right;
+}
+
+.menu-items {
+	list-style: none;
+	margin: 1rem;
+}
+
+.menu-items li {
+	display: inline-block;
+	margin: 1rem;
+}
+
+.menu-items-container {
+	display: inline-block;
+	text-align: left;
+}
+
+.logo {
+	float: left;
+	margin: 2rem;
+}
