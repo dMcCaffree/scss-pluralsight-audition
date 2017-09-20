@@ -99,3 +99,20 @@ input[name="notification"]:checked + label {
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
+
+/* FOOTER */
+
+footer {
+	background-color: #ac4145;
+	bottom: 0;
+	color: #fefefe;
+	display: block;
+	height: 10rem;
+	padding: 1rem;
+	position: fixed;
+	width: 100%;
+}
+
+footer a {
+
+}
