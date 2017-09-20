@@ -16,8 +16,8 @@ body {
 /* NAV */
 
 nav {
-	background-color: #aec1e8;
-	color: #ac4145;
+	background-color: #ccc;
+	color: #1b1b1b;
 	padding: .5rem 5rem;
 	text-align: right;
 }
@@ -41,7 +41,7 @@ nav {
 }
 
 .menu-items li a {
-	color: #ac4145;
+	color: #1b1b1b;
 	text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ nav {
 /* NOTIFICATIONS */
 
 label[for="notification-input"] {
-	background-color: #ac4145;
+	background-color: #555;
 	color: #fefefe;
 	cursor: pointer;
 	display: block;
@@ -82,7 +82,7 @@ input[name="notification"]:checked + label {
 	text-align: center;
 	width: 100%;
 
-	filter: sepia(1);
+	filter: sepia(.25);
 }
 
 .hero p {
@@ -94,7 +94,7 @@ input[name="notification"]:checked + label {
 	left: 50%;
 	margin: 0;
 	opacity: .6;
-	padding: 5.2rem;
+	padding: 5.1rem;
 	position: relative;
 	top: 50%;
 	transform: translate(-50%, -50%);
@@ -103,16 +103,11 @@ input[name="notification"]:checked + label {
 /* FOOTER */
 
 footer {
-	background-color: #ac4145;
+	background-color: #555;
 	bottom: 0;
 	color: #fefefe;
 	display: block;
-	height: 10rem;
-	padding: 1rem;
 	position: fixed;
+	text-align: center;
 	width: 100%;
-}
-
-footer a {
-
 }
