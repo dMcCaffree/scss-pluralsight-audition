@@ -7,6 +7,10 @@ html {
 
 body {
 	background-color: #fdfdfd;
+	background-attachment: fixed;
+	background-image: url('../assets/img/hero.jpeg');
+	background-position: top;
+	background-size: cover;
 	font-size: 1.6rem;
 	height: 100%;
 	margin: 0;
@@ -74,15 +78,10 @@ input[name="notification"]:checked + label {
 /* MAIN HERO */
 
 .hero {
-	background-image: url('../assets/img/hero.jpeg');
+	background-color: transparent;
 	height: 25rem;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: bottom;
 	text-align: center;
 	width: 100%;
-
-	filter: sepia(.25);
 }
 
 .hero p {
@@ -103,8 +102,14 @@ input[name="notification"]:checked + label {
 /* FEATURES */
 
 .feature-cards {
-	margin: 3rem auto;
+	background-color: #fefefe;
+	margin: 0 auto;
+	padding: 3rem 0;
 	text-align: center;
+}
+
+.feature-cards h2 {
+	margin-top: 0;
 }
 
 .feature-card {
@@ -130,6 +135,40 @@ input[name="notification"]:checked + label {
 
 .feature-description {
 	padding: 0 3rem;
+}
+
+/* CALL TO ACTION */
+
+.cta-container {
+	background-color: #000;
+	opacity: .85;
+	text-align: center;
+}
+
+.cta-container h2 {
+	color: #fefefe;
+	font-size: 4.8rem;
+	margin: 0 30rem;
+	padding-top: 6rem;
+}
+
+.cta-button {
+	background-color: #445c7b;
+	border-radius: .5rem;
+	color: #fefefe;
+	display: inline-block;
+	filter: drop-shadow(0 .3rem .2rem rgba(256, 256, 256, .2));
+	margin: 6rem 0;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+
+.cta-button:hover {
+	background-color: #5f78ac;
+}
+
+.cta-button:active {
+	filter: none;
 }
 
 /* FOOTER */
