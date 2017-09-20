@@ -119,6 +119,10 @@ input[name="notification"]:checked + label {
 	width: 16.666%;
 }
 
+.feature-card:hover {
+	filter: none;
+}
+
 .feature-image img {
 	height: 12rem;
 	width: 12rem;
