@@ -1,0 +1,32 @@
+.cta-container {
+	background-color: #000;
+	opacity: .85;
+	text-align: center;
+}
+
+.cta-container h2 {
+	color: #fefefe;
+	font-size: 4.8rem;
+	margin: 0 30rem;
+	padding-top: 6rem;
+}
+
+.cta-button {
+	background-color: #445c7b;
+	border-radius: .5rem;
+	color: #fefefe;
+	display: inline-block;
+	filter: drop-shadow(0 .3rem .2rem rgba(256, 256, 256, .2));
+	margin: 6rem 0;
+	padding: 1rem 2rem;
+	text-decoration: none;
+}
+
+.cta-button:hover {
+	background-color: #5f78ac;
+}
+
+.cta-button:active {
+	-webkit-filter: none;
+	filter: none;
+}

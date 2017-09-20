@@ -1,0 +1,18 @@
+label[for="notification-input"] {
+	background-color: #445c7b;
+	color: #fefefe;
+	cursor: pointer;
+	display: block;
+	margin: 0;
+	padding: .5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input[name="notification"]:checked + label {
+	display: none;
+}
+
+input[name="notification"]:checked + label {
+	display: none;
+}
