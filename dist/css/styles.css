@@ -1,19 +1,24 @@
+/* RESETS */
+
 html {
 	font-size: 10px;
-/ / Sets rem size margin: 0;
+	margin: 0;
 }
 
 body {
+	background-color: #fefefe;
 	font-size: 1.6rem;
 	height: 100%;
 	margin: 0;
 	width: 100%;
 }
 
+/* NAV */
+
 nav {
 	background-color: #aec1e8;
 	color: #ac4145;
-	padding: .5rem;
+	padding: .5rem 5rem;
 	text-align: right;
 }
 
@@ -43,4 +48,54 @@ nav {
 .menu-items-container {
 	display: inline-block;
 	text-align: left;
+}
+
+/* NOTIFICATIONS */
+
+label[for="notification-input"] {
+	background-color: #ac4145;
+	color: #fefefe;
+	cursor: pointer;
+	display: block;
+	margin: 0;
+	padding: .5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input[name="notification"]:checked + label {
+	display: none;
+}
+
+input[name="notification"]:checked + label {
+	display: none;
+}
+
+/* MAIN HERO */
+
+.hero {
+	background-image: url('../assets/img/hero.jpeg');
+	height: 25rem;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom;
+	text-align: center;
+	width: 100%;
+
+	filter: sepia(1);
+}
+
+.hero p {
+	background-color: #fefefe;
+	color: #1b1b1b;
+	display: block;
+	font-size: 6.4rem;
+	font-weight: bold;
+	left: 50%;
+	margin: 0;
+	opacity: .6;
+	padding: 5.2rem;
+	position: relative;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
