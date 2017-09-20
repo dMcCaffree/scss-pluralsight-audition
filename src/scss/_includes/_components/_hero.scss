@@ -3,19 +3,19 @@
 	height: 25rem;
 	text-align: center;
 	width: 100%;
-}
 
-.hero p {
-	background-color: #fefefe;
-	color: #1b1b1b;
-	display: block;
-	font-size: 6.4rem;
-	font-weight: bold;
-	left: 50%;
-	margin: 0;
-	opacity: .6;
-	padding: 5.1rem;
-	position: relative;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	p {
+		background-color: #fefefe;
+		color: #1b1b1b;
+		display: block;
+		font-size: 6.4rem;
+		font-weight: bold;
+		left: 50%;
+		margin: 0;
+		opacity: .6;
+		padding: 5.1rem;
+		position: relative;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
 }

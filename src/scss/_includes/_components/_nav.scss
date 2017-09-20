@@ -3,32 +3,32 @@ nav {
 	color: #1b1b1b;
 	padding: .5rem 5rem;
 	text-align: right;
-}
 
-.logo {
-	float: left;
-	font-size: 2rem;
-	font-weight: bold;
-	margin: 2rem;
-}
+	.logo {
+		float: left;
+		font-size: 2rem;
+		font-weight: bold;
+		margin: 2rem;
+	}
 
-.menu-items {
-	font-weight: bold;
-	list-style: none;
-	margin: 1rem;
-}
+	.menu-items-container {
+		display: inline-block;
+		text-align: left;
+	}
 
-.menu-items li {
-	display: inline-block;
-	margin: 1rem;
-}
+	.menu-items {
+		font-weight: bold;
+		list-style: none;
+		margin: 1rem;
 
-.menu-items li a {
-	color: #1b1b1b;
-	text-decoration: none;
-}
+		li {
+			display: inline-block;
+			margin: 1rem;
 
-.menu-items-container {
-	display: inline-block;
-	text-align: left;
+			a {
+				color: #1b1b1b;
+				text-decoration: none;
+			}
+		}
+	}
 }

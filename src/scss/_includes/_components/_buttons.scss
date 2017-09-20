@@ -1,0 +1,19 @@
+.cta-button {
+	background-color: #445c7b;
+	border-radius: .5rem;
+	color: #fefefe;
+	display: inline-block;
+	filter: drop-shadow(0 .3rem .2rem rgba(256, 256, 256, .2));
+	margin: 6rem 0;
+	padding: 1rem 2rem;
+	text-decoration: none;
+
+	&:hover {
+		background-color: #5f78ac;
+	}
+
+	&:active {
+		-webkit-filter: none;
+		filter: none;
+	}
+}
