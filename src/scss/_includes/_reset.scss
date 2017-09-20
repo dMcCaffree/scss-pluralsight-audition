@@ -1,15 +1,11 @@
 html {
-	font-size: 10px;
+	font-size: $rem-reset-size;
 	margin: 0;
 }
 
 body {
-	background-color: #fdfdfd;
-	background-attachment: fixed;
-	background-image: url('../../../dist/assets/img/hero.jpeg');
-	background-position: top;
-	background-size: cover;
-	font-size: 1.6rem;
+	@include parallax-background($main-background-image);
+	font-size: $medium-font-size;
 	height: 100%;
 	margin: 0;
 	width: 100%;

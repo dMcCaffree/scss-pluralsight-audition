@@ -1,0 +1,6 @@
+@mixin parallax-background ($background-image) {
+	background-attachment: fixed;
+	background-image: $background-image;
+	background-position: top;
+	background-size: cover;
+}
