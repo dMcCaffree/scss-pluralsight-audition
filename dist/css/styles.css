@@ -53,7 +53,7 @@ nav {
 /* NOTIFICATIONS */
 
 label[for="notification-input"] {
-	background-color: #555;
+	background-color: #445c7b;
 	color: #fefefe;
 	cursor: pointer;
 	display: block;
@@ -110,8 +110,9 @@ input[name="notification"]:checked + label {
 .feature-card {
 	background-color: #dcdcdc;
 	border-radius: .5rem;
-	filter: drop-shadow(0 .5rem .3rem rgba(0, 0, 0, .35));
 	display: inline-block;
+	filter: drop-shadow(0 .5rem .3rem rgba(0, 0, 0, .35));
+	height: 25rem;
 	margin: 1.5rem;
 	padding: 1rem;
 	text-align: center;
@@ -121,6 +122,10 @@ input[name="notification"]:checked + label {
 .feature-image img {
 	height: 12rem;
 	width: 12rem;
+}
+
+.feature-description {
+	padding: 0 3rem;
 }
 
 /* FOOTER */
